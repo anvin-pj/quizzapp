@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style11.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Quiz App</h1>
+        <!-- Topic Selection Screen -->
+        <div id="topic-selection">
+            <h2>Select a Topic</h2>
+            <button class="btn" onclick="startQuiz('HTML')">HTML Quiz</button>
+            <button class="btn" onclick="startQuiz('Programming')">Programming Quiz</button>
+            <button class="btn" onclick="startQuiz('DataStructures')">Data Structure Quiz</button>
+            <button class="btn" onclick="startQuiz('Algorithms')">Algorithms Quiz</button>
+        </div>
+
+        <!-- Quiz Section -->
+        <div class="quiz" id="quiz-section" style="display: none;">
+            <h2 id="question">....</h2>
+            <div id="answer-buttons">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+                <button class="btn">Answer 5</button>
+            </div>
+            <button id="next-btn" class="btn">Next</button>
+        </div>
+    </div>
+</body>
+<script src="quizz.js"></script>
+</html>
