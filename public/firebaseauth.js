@@ -9,14 +9,14 @@ import{getFirestore, setDoc, doc} from "https://www.gstatic.com/firebasejs/11.0.
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAoBQ0Atjqkco3lWlwok81zlDfyyTqDUE4",
-    authDomain: "new-one-243ad.firebaseapp.com",
-    projectId: "new-one-243ad",
-    storageBucket: "new-one-243ad.appspot.com",
-    messagingSenderId: "1045708931922",
-    appId: "1:1045708931922:web:0bd1b747d56237793a308b",
-    measurementId: "G-FH3P6YCMGC"
-  };
+    apiKey: "AIzaSyAotXrfu8ygfu8r3KoXRuxIfL_dXn-4k54",
+    authDomain: "quizz-e35cf.firebaseapp.com",
+    projectId: "quizz-e35cf",
+    storageBucket: "quizz-e35cf.appspot.com",
+    messagingSenderId: "999723101355",
+    appId: "1:999723101355:web:c4a3cbea37a3b3ae44dbee"
+};
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
